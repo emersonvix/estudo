@@ -1,0 +1,4 @@
+
+https://pynative.com/python-list-files-in-a-directory/
+https://alexwlchan.net/2021/s3-progress-bars/
+
