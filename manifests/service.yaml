@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapi
+  namespace: site
+spec:
+  type: LoadBalancer
+  selector:
+    app: myapi
+  ports:
+  - port: 80
+    targetPort: 8000
